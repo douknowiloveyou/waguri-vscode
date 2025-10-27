@@ -1,0 +1,28 @@
+semantic_token = {
+    "...": {
+        "foreground": "...",
+    },
+}
+
+
+fg1 = []
+
+fg2 = []
+
+fg3 = []
+
+green = []
+
+yellow = []
+
+purple = []
+
+orange = []
+
+red = []
+
+dark_blue = []
+
+blue = []
+
+cyan = []
