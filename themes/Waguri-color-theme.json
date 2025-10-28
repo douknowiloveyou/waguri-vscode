@@ -48,7 +48,7 @@
                 "meta.attribute.python"
             ],
             "settings": {
-                "foreground": "#CAC2BB"
+                "foreground": "#B8B0A9"
             }
         },
         {
@@ -205,7 +205,7 @@
                 "comment.line.double-dash.sql"
             ],
             "settings": {
-                "foreground": "#353535"
+                "foreground": "#54525E"
             }
         }
     ],

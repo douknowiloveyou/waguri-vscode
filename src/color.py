@@ -8,7 +8,8 @@ fg1 = {
 fg2 = {
     "scope": [],
     "settings": {
-        "foreground": "#CAC2BB",
+        # "foreground": "#CAC2BB",
+        "foreground": "#B8B0A9",
     },
 }
 
@@ -73,7 +74,8 @@ blue = {
 gray = {
     "scope": [],
     "settings": {
-        "foreground": "#353535",
+        # "foreground": "#353535",
+        "foreground": "#54525E",
     },
 }
 
