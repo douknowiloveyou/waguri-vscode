@@ -27,4 +27,4 @@ dark_blue = []
 
 blue = []
 
-cyan = []
+gray = []

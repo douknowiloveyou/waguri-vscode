@@ -34,7 +34,8 @@
     "tokenColors": [
         {
             "scope": [
-                "variable.other.object.js"
+                "variable.other.object.js",
+                "source.sql"
             ],
             "settings": {
                 "foreground": "#DED7D0"
@@ -55,7 +56,8 @@
                 "meta.function-call.c",
                 "meta.function-call.js",
                 "support.function.builtin.python",
-                "meta.function-call.generic.python"
+                "meta.function-call.generic.python",
+                "storage.modifier.sql"
             ],
             "settings": {
                 "foreground": "#787878",
@@ -76,7 +78,9 @@
         },
         {
             "scope": [
-                "storage.type.built-in.primitive.c"
+                "storage.type.built-in.primitive.c",
+                "storage.type.sql",
+                "keyword.other.DDL.create.II.sql"
             ],
             "settings": {
                 "foreground": "#E7C59D"
@@ -143,7 +147,9 @@
                 "string.quoted.multi.python",
                 "constant.numeric.dec.python",
                 "constant.numeric.float.python",
-                "constant.language.python"
+                "constant.language.python",
+                "string.quoted.single.sql",
+                "constant.numeric.sql"
             ],
             "settings": {
                 "foreground": "#D6A6A6"
@@ -178,7 +184,10 @@
                 "storage.type.function.async.python",
                 "storage.type.class.python",
                 "keyword.control.flow.python",
-                "keyword.operator.logical.python"
+                "keyword.operator.logical.python",
+                "keyword.other.create.sql",
+                "keyword.other.sql",
+                "entity.name.function.sql"
             ],
             "settings": {
                 "foreground": "#76afd3"
@@ -192,7 +201,8 @@
                 "comment.line.double-slash.js",
                 "comment.line.number-sign.python",
                 "string.quoted.docstring.raw.multi.python",
-                "string.quoted.docstring.multi.python"
+                "string.quoted.docstring.multi.python",
+                "comment.line.double-dash.sql"
             ],
             "settings": {
                 "foreground": "#353535"
