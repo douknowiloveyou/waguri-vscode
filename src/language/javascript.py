@@ -1,9 +1,12 @@
 semantic_token = {
     "function.declaration:javascript": {
-        "foreground": "#7ec49D",
+        "foreground": "#b5d6a6",
     },
     "variable.defaultLibrary:javascript": {
         "fontStyle": "italic",
+    },
+    "property.declaration:javascript": {
+        "foreground": "#b8a6d6",
     },
 }
 

@@ -9,14 +9,14 @@
         "type:c": {
             "foreground": "#E7C59D"
         },
-        "method:csharp": {
-            "foreground": "#787878"
-        },
         "function.declaration:javascript": {
-            "foreground": "#7ec49D"
+            "foreground": "#b5d6a6"
         },
         "variable.defaultLibrary:javascript": {
             "fontStyle": "italic"
+        },
+        "property.declaration:javascript": {
+            "foreground": "#b8a6d6"
         },
         "class.decorator.builtin:python": {
             "foreground": "#78A9FF"
@@ -47,6 +47,7 @@
         {
             "scope": [
                 "variable.other.object.property.cs",
+                "variable.other.property.gdscript",
                 "variable.other.object.property.js",
                 "variable.other.property.js",
                 "meta.attribute.python"
@@ -58,6 +59,7 @@
         {
             "scope": [
                 "meta.function-call.c",
+                "meta.function-call.gdscript",
                 "meta.function-call.js",
                 "support.function.builtin.python",
                 "meta.function-call.generic.python",
@@ -72,13 +74,15 @@
             "scope": [
                 "meta.function.definition.parameters.c",
                 "comment.line.double-slash.cs",
+                "entity.name.function.cs",
+                "meta.function.gdscript",
                 "support.type.property-name.json",
                 "entity.name.type.class.python",
                 "support.function.magic.python",
                 "entity.name.function.python"
             ],
             "settings": {
-                "foreground": "#7EC49D"
+                "foreground": "#b5d6a6"
             }
         },
         {
@@ -87,6 +91,9 @@
                 "keyword.type.void.cs",
                 "entity.name.type.cs",
                 "keyword.type.double.cs",
+                "keyword.type.int.cs",
+                "entity.name.type.class.gdscript",
+                "keyword.language.gdscript",
                 "storage.type.sql",
                 "keyword.other.DDL.create.II.sql"
             ],
@@ -98,6 +105,7 @@
             "scope": [
                 "variable.parameter.probably.c",
                 "entity.name.variable.parameter.cs",
+                "variable.parameter.function.language.gdscript",
                 "variable.parameter.function.language.python",
                 "variable.parameter.function-call.python"
             ],
@@ -118,6 +126,14 @@
                 "punctuation.terminator.statement.cs",
                 "keyword.operator.assignment.cs",
                 "keyword.operator.arithmetic.cs",
+                "keyword.operator.logical.cs",
+                "punctuation.accessor.cs",
+                "keyword.operator.relational.cs",
+                "keyword.operator.increment.cs",
+                "keyword.operator.decrement.cs",
+                "keyword.operator.comparison.gdscript",
+                "keyword.operator.assignment.gdscript",
+                "keyword.operator.arithmetic.gdscript",
                 "keyword.operator.assignment.js",
                 "storage.type.function.arrow.js",
                 "punctuation.accessor.js",
@@ -150,6 +166,11 @@
                 "constant.numeric.decimal.c",
                 "string.quoted.double.cs",
                 "constant.numeric.decimal.cs",
+                "constant.language.boolean.true.cs",
+                "constant.language.boolean.false.cs",
+                "string.quoted.gdscript",
+                "constant.numeric.integer.gdscript",
+                "constant.numeric.float.gdscript",
                 "string.quoted.single.js",
                 "constant.numeric.decimal.js",
                 "constant.language.boolean.true.js",
@@ -166,7 +187,8 @@
                 "constant.numeric.sql"
             ],
             "settings": {
-                "foreground": "#D6A6A6"
+                "foreground": "#D6A6A6",
+                "fontStyle": ""
             }
         },
         {
@@ -200,6 +222,11 @@
                 "keyword.control.flow.return.cs",
                 "keyword.control.conditional.if.cs",
                 "storage.type.var.cs",
+                "keyword.control.loop.for.cs",
+                "keyword.operator.expression.new.cs",
+                "storage.type.function.gdscript",
+                "keyword.control.flow.gdscript",
+                "storage.type.var.gdscript",
                 "storage.type.js",
                 "keyword.operator.new.js",
                 "storage.type.function.python",
@@ -219,6 +246,8 @@
             "scope": [
                 "comment.line.double-slash.c",
                 "comment.block.c",
+                "punctuation.definition.comment.number-sign.gdscript",
+                "comment.line.number-sign.gdscript",
                 "comment.block.documentation.js",
                 "comment.line.double-slash.js",
                 "comment.line.number-sign.python",
@@ -227,7 +256,8 @@
                 "comment.line.double-dash.sql"
             ],
             "settings": {
-                "foreground": "#54525E"
+                "foreground": "#54525E",
+                "fontStyle": "italic"
             }
         }
     ],

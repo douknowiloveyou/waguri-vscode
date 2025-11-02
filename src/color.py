@@ -2,14 +2,15 @@ fg1 = {
     "scope": [],
     "settings": {
         "foreground": "#DED7D0",
+        "fontStyle": "",
     },
 }
 
 fg2 = {
     "scope": [],
     "settings": {
-        # "foreground": "#CAC2BB",
         "foreground": "#B8B0A9",
+        "fontStyle": "",
     },
 }
 
@@ -24,7 +25,8 @@ fg3 = {
 green = {
     "scope": [],
     "settings": {
-        "foreground": "#7EC49D",
+        "foreground": "#b5d6a6",
+        "fontStyle": "",
     },
 }
 
@@ -32,6 +34,7 @@ yellow = {
     "scope": [],
     "settings": {
         "foreground": "#E7C59D",
+        "fontStyle": "",
     },
 }
 
@@ -39,6 +42,7 @@ purple = {
     "scope": [],
     "settings": {
         "foreground": "#b8a6d6",
+        "fontStyle": "",
     },
 }
 
@@ -54,6 +58,7 @@ red = {
     "scope": [],
     "settings": {
         "foreground": "#D6A6A6",
+        "fontStyle": "",
     },
 }
 
@@ -61,6 +66,7 @@ dark_blue = {
     "scope": [],
     "settings": {
         "foreground": "#78A9FF",
+        "fontStyle": "",
     },
 }
 
@@ -68,14 +74,15 @@ blue = {
     "scope": [],
     "settings": {
         "foreground": "#76afd3",
+        "fontStyle": "",
     },
 }
 
 gray = {
     "scope": [],
     "settings": {
-        # "foreground": "#353535",
         "foreground": "#54525E",
+        "fontStyle": "italic",
     },
 }
 
